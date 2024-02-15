@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package example.v1;
+option go_package = "messages/message_v1";
+
+message MyMessage {
+  int32 myInt = 1;
+  string myString = 2;
+}
